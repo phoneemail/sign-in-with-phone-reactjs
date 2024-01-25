@@ -6,7 +6,7 @@ export default function Login() {
     "country_code": "+91",   //Replace with your country code
     "phone_no": "**********" // Replace with your phone number
   }
-  const URL = `https://auth.phone.email/sign-in?countrycode=${userInfo.country_code}&phone_no=${userInfo.phone_no}&redirect_url=https://dashing-concha-578106.netlify.app/success&auth_type=`;
+  const URL = `https://phone.email/auth/sign-in?countrycode=${userInfo.country_code}&phone_no=${userInfo.phone_no}&redirect_url=https://dashing-concha-578106.netlify.app/success&auth_type=`;
   const [windowDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
