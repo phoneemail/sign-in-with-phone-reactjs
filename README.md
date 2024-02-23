@@ -1,6 +1,6 @@
-# Sign In with Phone - React JS Demo App
+# Sign In with Phone - React JS Demo
 
-Welcome to the Sign In with Phone React JS demo app! This application demonstrates the implementation of a "Login with Phone" button in a React JS environment.
+Welcome to the Sign In with Phone React JS demo! This application demonstrates the implementation of a "Login with Phone" button in a React JS environment.
 
 ## Website
 
@@ -30,12 +30,16 @@ To get started with the Sign In with Phone React JS demo app, follow these steps
     npm install
     ```
 
-3. Run the app:
+3. Change the config:
+    Change your access code in `Login.js`. You can get the access code from profile section in [admin dashboard](https://admin.phone.email).  
+
+4. Run the app:
 
     ```bash
     npm start
     ```
     The app will be accessible at http://localhost:3000 by default.
+
 
  ## Features
 
