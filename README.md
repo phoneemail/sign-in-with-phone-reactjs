@@ -31,6 +31,7 @@ To get started with the Sign In with Phone React JS demo app, follow these steps
     ```
 
 3. Change the config:
+
     Change your CLIENT_ID in `Login.js`. You can get the CLIENT_ID from profile section in [admin dashboard](https://admin.phone.email).  
 
 4. Run the app:
