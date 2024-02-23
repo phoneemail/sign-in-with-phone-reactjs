@@ -31,7 +31,7 @@ To get started with the Sign In with Phone React JS demo app, follow these steps
     ```
 
 3. Change the config:
-    Change your access code in `Login.js`. You can get the access code from profile section in [admin dashboard](https://admin.phone.email).  
+    Change your CLIENT_ID in `Login.js`. You can get the CLIENT_ID from profile section in [admin dashboard](https://admin.phone.email).  
 
 4. Run the app:
 
@@ -41,15 +41,13 @@ To get started with the Sign In with Phone React JS demo app, follow these steps
     The app will be accessible at http://localhost:3000 by default.
 
 
- ## Features
+## Features
 
-Login with Phone: Easily integrate a secure and convenient phone-based authentication system into your React JS application.
+Login with Phone: Easily integrate a secure and convenient phone-based authentication system into your React JS application. 
 
- ## Contributing
 
-We welcome contributions from the community. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
- ## License
+## License
 
 This project is licensed under the MIT License.
 
