@@ -10,10 +10,6 @@ Visit our website at [www.phone.email](https://www.phone.email) for more informa
 
 Detailed documentation is available at [www.phone.email/docs#reactjs](https://www.phone.email/docs#reactjs). Please refer to this documentation for instructions on how to integrate the "Login with Phone" functionality into your React JS project.
 
-## GitHub Repository
-
-Explore the source code and contribute to the project on GitHub: [phoneemail/sign-in-with-phone-reactjs](https://github.com/phoneemail/sign-in-with-phone-reactjs)
-
 ## Getting Started
 
 To get started with the Sign In with Phone React JS demo app, follow these steps:
@@ -41,12 +37,9 @@ To get started with the Sign In with Phone React JS demo app, follow these steps
     ```
     The app will be accessible at http://localhost:3000 by default.
 
-
 ## Features
 
 Login with Phone: Easily integrate a secure and convenient phone-based authentication system into your React JS application. 
-
-
 
 ## License
 
