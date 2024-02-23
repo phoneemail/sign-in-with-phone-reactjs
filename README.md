@@ -40,7 +40,6 @@ To get started with the Sign In with Phone React JS demo app, follow these steps
     ```
     The app will be accessible at http://localhost:3000 by default.
 
-   
 
  ## Features
 
