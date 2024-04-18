@@ -8,7 +8,7 @@ const App = () => {
   const CLIENT_ID = "YOUR_CLIENT_ID";
 
   const REDIRECT_URL = window.location.href;
-  const AUTH_URL = `https://auth.phone.email/log-in?client_id=${CLIENT_ID}&redirect_url=${REDIRECT_URL}`;
+  const AUTH_URL = `https://www.phone.email/auth/log-in?client_id=${CLIENT_ID}&redirect_url=${REDIRECT_URL}`;
 
   // Use state to manage user details
   const [userDetails, setUserDetails] = useState({
