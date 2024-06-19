@@ -9,9 +9,7 @@ const App = () => {
   });
 
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-
-
-    
+ 
   const SignInButton = () => {
 
       // Create a script element
@@ -31,16 +29,6 @@ const App = () => {
           countryCode: user_country_code,
           phoneNo: user_phone_number
         });
-        
-      // Send Email: We reccomend you to send welcome email to the user.
-      //curl --location --request POST "https://api.phone.email/v1/sendmail" --ssl-no-revoke --header "Content-Type: application/json" --data-raw "{'apiKey':'API_KEY','fromCountryCode':'XXX','fromPhoneNo':'XXXXXXXXXX', 'toCountrycode':'XX','toPhoneNo':'XXXXXXXXXX','subject': 'Welcome to YOUR_BUSINESS_NAME','tinyFlag':true,'messageBody':'V2VsY29tZSB0byB5b3VyIEJVU0lORVNTX05BTUU='}"
-
-      // Create Session: Store verified user phone number in session variable.
-
-      // Redirect: Redirect user to the page of your choice as the user has successfully logged in.
-
-      // Handle Logout (Optional): You can create logout button on your website as required.In the event of logout you must clear delete ph_email_jwt cookie and clear your session variables.  To delete cookie simply set it to blank -> setcookie("ph_email_jwt", "", time()-3600);
-
       
       };
 
